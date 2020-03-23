@@ -29,12 +29,14 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_above="@id/second"
+            android:layout_margin="15dp"
             android:text="Love"/>
         <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hate"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hate"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
