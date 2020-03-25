@@ -12,17 +12,17 @@
         <ImageView
             android:id="@+id/first"
             android:layout_width="match_parent"
-            android:layout_height="360dp"
+            android:layout_height="355dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/car"
+            android:src="@drawable/a"
             />
         <ImageView
             android:id="@+id/second"
             android:layout_width="match_parent"
             android:layout_height="375dp"
-            android:scaleType="centerCrop"
             android:layout_below="@id/first"
-            android:src="@drawable/traffic"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
@@ -30,13 +30,15 @@
             android:layout_alignParentRight="true"
             android:layout_above="@id/second"
             android:layout_margin="15dp"
-            android:text="Love"/>
+            android:text="Love"
+            android:onClick="love" />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hate"
             android:layout_alignParentRight="true"
             android:layout_margin="15dp"
-            android:layout_alignParentBottom="true"/>
+            android:layout_alignParentBottom="true"
+            android:onClick="hate"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
